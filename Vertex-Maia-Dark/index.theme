@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Vertex-Maia-Dark
+Comment=A theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Vertex-Maia-Dark
+MetacityTheme=Vertex-Maia-Dark
+IconTheme=Vertex-Maia
+CursorTheme=Breeze
+ButtonLayout=menu:minimize,maximize,close

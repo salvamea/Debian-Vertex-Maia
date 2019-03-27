@@ -1,0 +1,46 @@
+# Whiskermenu
+style "darkback"
+{
+engine "pixmap" {
+
+    image {
+      function = BOX
+      state = NORMAL
+      file = "Buttons2/button-default2.png"
+      border = { 4, 4, 4, 4 }
+      stretch = TRUE
+    }
+
+    image {
+      function = BOX
+      state = PRELIGHT
+      file = "Buttons2/button-prelight2.png"
+      border = { 4, 4, 4, 4 }
+      stretch = TRUE
+    }
+
+    image {
+      function = BOX
+      state = ACTIVE
+      file = "Buttons2/button-pressed2.png"
+      border = { 4, 4, 4, 4 }
+      stretch = TRUE
+    }
+
+    image {
+      function = BOX
+      state = INSENSITIVE
+      file = "Buttons2/button-insensitive2.png"
+      border = { 4, 4, 4, 4 }
+      stretch = TRUE
+    }
+  }
+
+ bg[NORMAL] = "#454947"
+ bg[ACTIVE] = "#1A1A1A"
+ bg[PRELIGHT] = "#454947"
+ fg[NORMAL] = "#ccc"
+ fg[ACTIVE] = "#ccc"
+ fg[PRELIGHT] = "#ccc"
+}
+widget "whiskermenu-window*" style "darkback"

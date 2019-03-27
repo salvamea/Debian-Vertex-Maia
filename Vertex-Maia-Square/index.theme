@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Vertex-Maia-Square
+Comment=Vertex theme adjusted with new titlebarbuttons to match Maia icon theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Vertex-Maia
+MetacityTheme=Vertex-Maia
+IconTheme=Vertex-Maia
+CursorTheme=Maia
+ButtonLayout=menu:minimize,maximize,close
