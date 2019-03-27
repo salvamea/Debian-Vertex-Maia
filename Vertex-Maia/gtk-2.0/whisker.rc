@@ -39,8 +39,8 @@ engine "pixmap" {
  bg[NORMAL] = "#454947"
  bg[ACTIVE] = "#1A1A1A"
  bg[PRELIGHT] = "#454947"
- fg[NORMAL] = "#ccc"
- fg[ACTIVE] = "#ccc"
- fg[PRELIGHT] = "#ccc"
+ fg[NORMAL] = "#fff"
+ fg[ACTIVE] = "#fff"
+ fg[PRELIGHT] = "#fff"
 }
 widget "whiskermenu-window*" style "darkback"
